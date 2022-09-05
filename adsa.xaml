@@ -1,0 +1,93 @@
+<Viewbox  Grid.Column="2" Grid.ColumnSpan="9" Grid.Row="1" Grid.RowSpan="9" Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                <Grid x:Name="PreviewPortrait" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Background="White" Height="325" Width="220">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Border x:Name="Cage_Border"  Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="0.5" Grid.ColumnSpan="7" Grid.RowSpan="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                                        <Grid x:Name="CageGrid">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock x:Name="CagePreText" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Cage Number:" VerticalAlignment="Top"  Margin="4,4,-2,0" FontFamily="Corbel" FontSize="16" FontWeight="Bold"/>
+                                            <TextBlock x:Name="CageItem" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="0000" VerticalAlignment="Center"  Margin="0,0,-2,0" FontFamily="Malgun Gothic" FontSize="25" TextAlignment="Center"/>
+                                        </Grid>
+                                    </Border>
+                                    <Border x:Name="Place_Border"  Grid.Row="1" Grid.Column="9" BorderBrush="Black" BorderThickness="0.5" Grid.ColumnSpan="7" Grid.RowSpan="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                                        <TextBlock x:Name="PlacePreText" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Place" VerticalAlignment="Top"  Margin="2,2,0,0" FontFamily="Corbel" FontWeight="Normal"/>
+                                    </Border>
+                                    <Border x:Name="NumClass_Border"  Grid.Row="3" Grid.Column="9" BorderBrush="Black" BorderThickness="0.5,0,0.5,0.5" Grid.ColumnSpan="7" Grid.RowSpan="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                                        <TextBlock x:Name="NumberInClassPreText" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="# in class" VerticalAlignment="Top"  Margin="2,2,0,0" FontFamily="Corbel" FontWeight="Normal"/>
+                                    </Border>
+                                    <Border x:Name="Status_Border"  Grid.Row="5" Grid.Column="13" BorderBrush="Black" BorderThickness="0.5,0,0.5,0.5" Grid.ColumnSpan="3" Grid.RowSpan="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                                        <Grid x:Name="StatusGrid">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock x:Name="StatusPreText" Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Stretch"  Margin="0,2,0,0" FontFamily="Corbel" FontSize="8" FontWeight="Normal" Text="Status" TextAlignment="Center"/>
+                                            <TextBlock x:Name="StatusText" Grid.Row="2" Grid.Column="0"  Grid.RowSpan="6" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="N" VerticalAlignment="Stretch"  Margin="0,0,0,0" FontFamily="Malgun Gothic" FontSize="22" TextAlignment="Center"/>
+                                        </Grid>
+                                    </Border>
+                                    <TextBlock x:Name="DivisionPreText" Grid.Row="5" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="9" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Division:" VerticalAlignment="Top"  Margin="0,2,0,0" FontFamily="Corbel" FontWeight="Bold" FontSize="9"/>
+                                    <TextBlock x:Name="DivisionItem" Grid.Row="5" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="9" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="2 (Lipochrome)" VerticalAlignment="Top"  Margin="0,12,0,0" FontFamily="Calibri" FontWeight="Normal"/>
+                                    <TextBlock x:Name="SectionPreText" Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="10" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Section:" VerticalAlignment="Top"  Margin="0,16,12.5,0" FontFamily="Corbel" FontWeight="Bold" FontSize="9"/>
+                                    <TextBlock x:Name="SectionItem" Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="10" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Top"  Margin="0,26,12.5,0" FontFamily="Calibri" FontWeight="Normal"><Run Text="2100 (Yellow)"/></TextBlock>
+                                    <TextBlock x:Name="ClassPreText" Grid.Row="8" Grid.Column="1" Grid.RowSpan="2" Margin="0,9,0,0" Grid.ColumnSpan="10" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Class:" VerticalAlignment="Top" FontFamily="Corbel" FontWeight="Bold" FontSize="9"/>
+                                    <TextBlock x:Name="ClassItem" Grid.Row="8" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="15" Margin="0,19,0,0" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Malgun Gothic" FontWeight="Bold" FontSize="27" TextAlignment="Center" Text="0000"/>
+                                    <Border BorderBrush="Black" BorderThickness="0,0,0,0.5" Grid.Row="10" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="15" Margin="0,0,0,0"/>
+                                    <TextBlock x:Name="NamePreText" Margin="0,3,0,0" Grid.Row="11" Grid.Column="2" Grid.RowSpan="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" FontFamily="Corbel" FontWeight="Bold" FontSize="10"/>
+                                    <TextBlock x:Name="NameItem" Margin="0,3,0,0" Grid.Row="11" Grid.Column="5" Grid.RowSpan="1" Grid.ColumnSpan="10" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="John Doe" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Normal" FontSize="10"/>
+                                    <TextBlock x:Name="AddressPreText" Margin="0,0,0,0" Grid.Row="12" Grid.Column="2" Grid.RowSpan="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" FontFamily="Corbel" FontWeight="Bold" FontSize="10"/>
+                                    <TextBlock x:Name="AddressItem" Margin="0,0,0,0" Grid.Row="12" Grid.Column="5" Grid.RowSpan="2" Grid.ColumnSpan="10" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Normal" FontSize="10"><Run Text="123 Unknown Bolavard, Toronto, XXX XXX, ON, Canada"/></TextBlock>
+                                    <Border BorderBrush="Black" Margin="0,0,0,12" Grid.Row="12" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="15" BorderThickness="0,0,0,0.5" />
+                                    <TextBlock x:Name="DescriptionPreText" Margin="0,12,0,0" Grid.Row="13" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="15" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Desciption:" VerticalAlignment="Top" FontFamily="Corbel" FontWeight="Bold" FontSize="9"/>
+                                    <TextBlock x:Name="DescriptionItem" Margin="0,3,0,0" Grid.Row="14" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="15" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Yellow Intensive-White Wings" VerticalAlignment="Top" FontFamily="Corbel" FontWeight="Normal"/>
+                                </Grid>
+                            </Viewbox>
